@@ -5,7 +5,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
-import org.testng.annotations.Test;
 
 public class RegistrationTest {
   @Test
@@ -21,18 +20,25 @@ public class RegistrationTest {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-	  driver.findElement(By.id("email_create")).sendKeys("abcemail3@gmail.com");
-	  driver.findElement(By.id("SubmitCreate")).click();
-	  
 	  try {
-		Thread.sleep(5000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		  driver.findElement(By.id("email_create")).sendKeys("demoemail7475@gmail.com");
+		  driver.findElement(By.id("SubmitCreate")).click();
+		  Thread.sleep(5000);
+		  driver.findElement(By.id("id_gender1")).click();
+	  }catch(Exception e) {
+		  System.out.println("Please use another email in test for account creation!");
+		  driver.findElement(By.id("email_create")).clear();
+		  driver.findElement(By.id("email_create")).sendKeys("demoemail7476@gmail.com");
+		  driver.findElement(By.id("SubmitCreate")).click();
+		  try {
+			Thread.sleep(5000);
+			} catch (InterruptedException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
+	  }
 	  
 	  //Fill registration form.
-	  
 	  driver.findElement(By.id("id_gender1")).click();
 	  driver.findElement(By.id("customer_firstname")).sendKeys("Aditya");
 	  driver.findElement(By.id("customer_lastname")).sendKeys("Bhogate");

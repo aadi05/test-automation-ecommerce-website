@@ -4,7 +4,6 @@ import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.Test;
 
 public class LoginTest {
   @Test
@@ -20,7 +19,7 @@ public class LoginTest {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-	  driver.findElement(By.id("email")).sendKeys("abcemail3@gmail.com");
+	  driver.findElement(By.id("email")).sendKeys("demoemail7475@gmail.com");
 	  driver.findElement(By.id("passwd")).sendKeys("abcpassword");
 	  driver.findElement(By.id("SubmitLogin")).click();
 	  try {
