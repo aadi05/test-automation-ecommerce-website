@@ -21,14 +21,14 @@ public class RegistrationTest {
 			e.printStackTrace();
 		}
 	  try {
-		  driver.findElement(By.id("email_create")).sendKeys("demoemail7475@gmail.com");
+		  driver.findElement(By.id("email_create")).sendKeys("demoemail1245@gmail.com");
 		  driver.findElement(By.id("SubmitCreate")).click();
 		  Thread.sleep(5000);
 		  driver.findElement(By.id("id_gender1")).click();
 	  }catch(Exception e) {
 		  System.out.println("Please use another email in test for account creation!");
 		  driver.findElement(By.id("email_create")).clear();
-		  driver.findElement(By.id("email_create")).sendKeys("demoemail7476@gmail.com");
+		  driver.findElement(By.id("email_create")).sendKeys("demoemail1246@gmail.com");
 		  driver.findElement(By.id("SubmitCreate")).click();
 		  try {
 			Thread.sleep(5000);

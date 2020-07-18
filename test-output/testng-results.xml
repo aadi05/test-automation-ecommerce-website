@@ -1,35 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="134319" started-at="2020-07-18T09:28:36Z" finished-at="2020-07-18T09:30:51Z">
+  <suite name="Default suite" duration-ms="29458" started-at="2020-07-18T09:59:50Z" finished-at="2020-07-18T10:00:19Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="134319" started-at="2020-07-18T09:28:36Z" finished-at="2020-07-18T09:30:51Z">
-      <class name="com.automation.AddToCartTest">
-        <test-method status="PASS" signature="testAddToCart()[pri:0, instance:com.automation.AddToCartTest@4b9e13df]" name="testAddToCart" duration-ms="48105" started-at="2020-07-18T09:30:03Z" finished-at="2020-07-18T09:30:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAddToCart -->
-      </class> <!-- com.automation.AddToCartTest -->
-      <class name="com.automation.RegistrationTest">
-        <test-method status="PASS" signature="testRegistration()[pri:0, instance:com.automation.RegistrationTest@8bd1b6a]" name="testRegistration" duration-ms="37086" started-at="2020-07-18T09:28:36Z" finished-at="2020-07-18T09:29:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testRegistration -->
-      </class> <!-- com.automation.RegistrationTest -->
+    <test name="Default test" duration-ms="29458" started-at="2020-07-18T09:59:50Z" finished-at="2020-07-18T10:00:19Z">
       <class name="com.automation.LoginTest">
-        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.automation.LoginTest@18be83e4]" name="testLogin" duration-ms="28123" started-at="2020-07-18T09:29:14Z" finished-at="2020-07-18T09:29:42Z">
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.automation.LoginTest@4c70fda8]" name="testLogin" duration-ms="29407" started-at="2020-07-18T09:59:50Z" finished-at="2020-07-18T10:00:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
       </class> <!-- com.automation.LoginTest -->
-      <class name="com.automation.SearchBarTest">
-        <test-method status="PASS" signature="testSearchBar()[pri:0, instance:com.automation.SearchBarTest@cb5822]" name="testSearchBar" duration-ms="20935" started-at="2020-07-18T09:29:42Z" finished-at="2020-07-18T09:30:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSearchBar -->
-      </class> <!-- com.automation.SearchBarTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
